@@ -222,7 +222,10 @@
                 boxes.innerHTML = "";
 
                 var a, b, c, d, e, f, g, h, m;
-
+                
+                if (x > 5)
+                    x = 5;
+                
                 for (m = 1; m <= x; m++) {
                     a = document.createElement("fieldset"); a.class = "fieldset";
                     b = document.createElement("label");
